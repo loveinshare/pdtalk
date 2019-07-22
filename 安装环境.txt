@@ -1,0 +1,15 @@
+npm install iview --save
+
+#main.js
+
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
+
+Vue.use(iView);
+
+//npm install axios --save
+
+npm install socket.io-client --save
+import io from 'socket.io-client';
+
+

@@ -8,6 +8,8 @@
   </div>
 </template>
 
+
+
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -29,3 +31,21 @@
   color: #42b983;
 }
 </style>
+
+<script>
+export default {
+  name:"home",
+  data(){
+    return{
+
+    }
+  },
+  mounted(){
+    this.socket = io.connect(this.href);  
+    var ss = this.socket;
+
+
+  }
+
+}
+</script>
